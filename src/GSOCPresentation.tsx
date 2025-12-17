@@ -41,7 +41,8 @@ const GSOCPresentation = () => {
         darkMode ? 'bg-gray-900 text-gray-200' : 'bg-gray-100 text-gray-800'
       } transition-colors duration-300`}
     >
-      <div className="max-w-5xl mx-auto p-4 sm:p-6">
+      <div className="max-w-7xl mx-auto px-6 py-8">
+
         {/* Header */}
         <div className="flex justify-between items-center mb-6">
           <h1
@@ -84,7 +85,7 @@ const GSOCPresentation = () => {
           </h2>
           <div className="flex flex-col sm:flex-row items-start sm:space-x-8">
             <div className="flex-1">
-              <ul className="space-y-3 text-sm sm:text-base md:text-lg">
+<ul className="space-y-6 text-2xl md:text-3xl leading-relaxed">
                 {current.blocks.map((block, idx) => (
                   <li
                     key={idx}
