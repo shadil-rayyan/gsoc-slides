@@ -1,0 +1,257 @@
+[
+  {
+    "title": "Introduction",
+    "content": [
+      "Hello everyone, my name is SHADIL A M , a 4rd-year computer science student at KTU University. I had the incredible opportunity to be selected for Google Summer of Code 2025 with the Zendalona organization, where I contributed to the zMantra a math learning game for visula imparied  as an open-source developer. My journey has been fueled by a passion for web development and collaborative open-source contributions",
+      "Contact: You can click on my name in the footer, which will take you to my GitHub profile. It contains all my contact details like email-address and social handles, including LinkedIn and Twitter."
+    ],
+    "image": "/profile.jpeg"
+  },
+  {
+    "title": "1. What is Open Source?",
+    "content": [
+      "Software with freely available source code for viewing, modification, and distribution",
+      "Built on principles of transparency, collaboration, and community ownership",
+      "Powers 80% of the internet (Linux, Apache, etc.)",
+      "Drives innovation in AI (TensorFlow, PyTorch)",
+      "Enables modern web development (React, Vue.js)",
+      "Learn from real-world codebases and build meaningful portfolio"
+    ]
+
+  },
+  {
+    "title": "2. What is GSoC?",
+    "content": [
+      "Founded in 2005 by Google to promote open source",
+      "19,000+ students from 112 countries have completed GSoC",
+      "Over 800 open source organizations supported",
+      "Paid remote internship (12-22 weeks) with one-on-one mentorship",
+      "Real-world project development with flexible working hours",
+      "Many contributors become maintainers or work at major tech companies"
+    ]
+  },
+  {
+    "title": "3. GSoC Statistics 2024",
+    "content": [
+      "Over 2,800 mentors and organization administrators",
+      "43,984 applicants from 172 countries",
+      "9,107 proposals submitted by 6,518 applicants",
+      "1,220 GSoC contributors accepted from 73 countries"
+    ]
+  },
+  {
+    "title": "4. Journey with AsyncAPI",
+    "content": [
+      "Opened my first PR at AsyncAPI 1.5 year ago",
+      "Started with Good First Issues (GFI), such as fixing CSS and minor bugs, to get familiar with the codebase",
+      "Worked on creating the financial summary page",
+      "Added an adopters section to the case studies",
+      "Wrote tests using Cypress, although the pull request wasn’t merged because cypress was removed from the project",
+      "Contributed to the migration of the AsyncAPI website from JavaScript to TypeScript and successfully completed it as part of a team",
+      "Applied for and got selected for Google Summer of Code 2024 at Postman (my project was transferred to AsyncAPI)",
+      "Worked on writing tests for Node.js scripts using Jest as part of GSoC for the AsyncAPI website.",
+      "Started with little knowledge of Open Source but grew through consistent effort and made it to GSoC",
+      "Initially doubted my abilities but achieved milestones through dedication and belief in myself",
+      "As of today, while I am writing this, I have had 30+ PRs merged in AsyncAPI"
+    ]
+  },
+  {
+    "title": "5. Why Consider GSoC?",
+    "content": [
+      "Gain hands-on experience working on real open-source projects.",
+      "Receive guidance from experienced mentors and developers in the open-source community",
+      "Improve technical skills, including coding, testing, and software development practices",
+      "Connect with other developers, open-source contributors, and organizations worldwide",
+      "Receive financial support for contributing to open-source projects during the summer",
+      "Enhance your resume with a notable open-source contribution and experience working in a collaborative environment",
+      "Increase visibility among potential employers and open doors to future career opportunities in the tech industry",
+      "Develop problem-solving, communication, and teamwork skills while contributing to meaningful projects"
+    ]
+  },
+  {
+    "title": "6. Are You Good Enough?",
+    "content": [
+      "Basic programming knowledge required",
+      "Git fundamentals needed",
+      "Communication skills are essential",
+      "Consistency valued over expertise",
+      "Learning attitude over current knowledge",
+      "Many first-time contributors and non-CS students succeed"
+    ]
+  },
+  {
+    "title": "7. Getting Started",
+    "content": [
+      "Master Git basics (clone, commit, push, pull)",
+      "Learn one programming language well",
+      "Familiarize with basic command line usage",
+      "Use resources like Odin project and freeCodeCamp",
+      "Set up development environment (VS Code, Git)",
+      "Study organization-specific tutorials"
+    ]
+  },
+  {
+    "title": "8. Choosing an Organization",
+    "content": [
+      "Evaluate technology stack familiarity",
+      "Assess project complexity level",
+      "Check community responsiveness",
+      "Review documentation quality",
+      "Watch for red flags: inactive repos, poor responses",
+      "Research past projects and GitHub activity"
+    ]
+  },
+  {
+    "title": "9. Eligibility Details",
+    "content": [
+      "Must be 18+ years of age",
+      "Be a current student or working professional",
+      "Be eligible to work in the country you reside in"
+    ]
+  },
+  {
+    "title": "10. Connecting with Organizations",
+    "content": [
+      "Use Discord/Slack as primary communication channels",
+      "Engage in mailing lists and GitHub discussions",
+      "Read documentation before asking questions",
+      "Introduce yourself properly to the community",
+      "Share your interests and skills clearly",
+      "Help other newcomers and participate in community calls"
+    ]
+  },
+  {
+    "title": "11. Starting Contributions",
+    "content": [
+      "Familiarize yourself with the project's structure, dependencies, and coding standards",
+      "Begin by tackling Good First Issues (GFIs) or fixing minor bugs to get a feel for the workflow",
+      "Follow the project's setup instructions to ensure your development environment is ready",
+      "Understand the project’s goals, past issues, and contribution guidelines to align with community practices",
+      "If you're unsure about something, ask for help on forums, chat groups, or during community meetings",
+      "Make your first pull request (PR) with a small but meaningful change and follow the project's PR process",
+      "Participate in discussions, review others' PRs, and attend community meetings to build relationships",
+      "Contribute regularly, even if it's small fixes or improvements, to demonstrate your commitment and progress",
+      "After submitting your PRs, seek feedback from mentors or experienced contributors to improve your work"
+    ]
+  },
+  {
+    "title": "12. GSoC Proposal Writing",
+    "content": [
+      "Carefully read the GSoC proposal guidelines and requirements for the specific organization you're applying to",
+      "Provide a detailed explanation of the project, including its goals, objectives, and how it will benefit the community",
+      "Break down the project into achievable milestones with a clear timeline for each phase",
+      "Outline the technical approach you'll take to implement the project, including tools, languages, and frameworks",
+      "Highlight relevant skills, experience, and past contributions that demonstrate your ability to complete the project",
+      "Describe how you will engage with the community, ask for feedback, and communicate progress regularly",
+      "Mention how you plan to work with mentors and how you'll seek guidance throughout the project",
+      "Set achievable goals for the GSoC period, ensuring the project is manageable within the timeframe",
+      "Demonstrate genuine enthusiasm for the project and the organization to show your commitment and motivation",
+      "Review your proposal for clarity, accuracy, and completeness. Get feedback from mentors or community members before submitting"
+    ]
+  },
+  {
+    "title": "13. Success Tips",
+    "content": [
+      "Keep track of your tasks, deadlines, and progress to stay on top of your work",
+      "Provide frequent updates to your mentors and the community to ensure you’re on the right track",
+      "Don’t wait for issues to arise—anticipate challenges and ask for help when needed",
+      "Break your project into manageable tasks and set clear, achievable goals for each phase",
+      "Actively request feedback on your work and be open to constructive criticism to improve",
+      "Be prepared to learn new tools, frameworks, or concepts as you work on your project",
+      "Dedicate regular time to your project and avoid last-minute rushes",
+      "If obstacles come up, adapt your approach, but always keep the project’s main goals in mind",
+      "Build relationships with mentors and other contributors, as this can help with both learning and future opportunities",
+      "Strive to produce high-quality work, including well-written code and thorough documentation",
+      "Ensure you have a good work-life balance to avoid burnout and maintain productivity"
+    ]
+  },
+  {
+    "title": "14. Relation with Maintainer",
+    "content": [
+      "Build connection with the maintainer by engaging meaningfully in discussions and community activities.",
+      "Show respect for their time by asking well-researched, thoughtful questions.",
+      "Provide clear and concise communication about your progress, challenges, and plans.",
+      "Seek constructive feedback on your contributions and be open to implementing suggestions.",
+      "Express gratitude for their guidance and support, as maintainers are often volunteers investing their time.",
+      "Collaborate effectively by ensuring your work aligns with the project’s goals and community standards.",
+      "Establish a professional and positive relationship that could lead to mentorship and future opportunities."
+    ]
+  },
+  {
+    "title": "15. Dos and Don'ts",
+    "content": [
+      "DO: Document your work comprehensively to make it clear and understandable for others",
+      "DO: Test your code thoroughly before submitting to ensure quality and functionality",
+      "DO: Maintain regular communication with your mentors and the community to keep everyone updated on your progress",
+      "DO: Stay organized with task tracking and timelines to meet deadlines",
+      "DON'T: Submit untested code that could introduce bugs or issues",
+      "DON'T: Spam pull requests (PRs); only submit meaningful, well-thought-out contributions",
+      "DON'T: Copy other proposals; your proposal should reflect your original thoughts and plans",
+      "DON'T: Disregard the community guidelines or coding standards for the project"
+    ]
+  },
+  {
+    "title": "16. Timeline Breakdown",
+    "content": [
+      "Timeline depends on the project size",
+      "January: Organization applications",
+      "February-March: Student exploration",
+      "March: Proposal preparation",
+      "May: Community bonding",
+      "June-August: Coding periods",
+      "September: Final evaluation"
+    ]
+  },
+  {
+    "title": "17. Project Details",
+    "content": [
+      "Project Size Options: Small (~175 hours) to Large (~350 hours)",
+      "Stipend Varies by Country:",
+      "India: Small (~$1,500), Large (~$3,000)",
+      "United States: Small (~$3,000), Large (~$6,000)",
+      "Stipend paid based on project size and country, distributed over the program's duration",
+      "Flexible Duration: 10 to 22 weeks, part-time (15-30 hours per week)",
+      "Project scope varies based on size, from small bug fixes to large feature implementations",
+      "Workload includes coding, documentation, testing, and community engagement",
+      "Final deliverables should include well-documented, tested, and production-ready code"
+    ]
+  },
+  {
+    "title": "18. Common Q&A",
+    "content": [
+      "Q: How do I know if I’m eligible for GSoC? A: You must be a student, at least 18 years old, and meet the eligibility requirements outlined by Google",
+      "Q: Can I apply to multiple organizations? A: Yes, you can apply to multiple organizations, but you should tailor each proposal to fit the specific organization's needs",
+      "Q: Do I need to have prior experience with open source? A: No, prior experience is not required, but it’s recommended to start contributing early to gain familiarity with the project and community",
+      "Q: How do I submit my proposal? A: Proposals are submitted through the GSoC website during the application period. Follow the instructions provided by the organization you are applying to",
+      "Q: What if my proposal isn’t accepted? A: If your proposal isn’t accepted, consider applying in the future. Use feedback from mentors to improve and work on your skills",
+      "Q: Can I work on the project full-time? A: GSoC is a part-time commitment, but some students may be able to work more hours depending on personal circumstances",
+      "Q: How do I find a project idea? A: Browse the list of available projects on the GSoC website or check the organization’s project ideas page. You can also propose your own idea after discussing it with the community",
+      "Q: What happens after I get selected? A: Once selected, you’ll begin working on your project with regular check-ins, feedback, and support from your mentors throughout the summer",
+      "Q: Is there any financial support during GSoC? A: Yes, students receive a stipend based on the size of the project, with payments made throughout the program",
+      "Q: Can I participate in GSoC while taking summer courses or working? A: GSoC is part-time, so it’s possible to balance it with other commitments, but make sure you can dedicate enough time to the project"
+    ]
+  },
+  {
+    "title": "19. Practical Demonstration",
+    "content": [
+      "Learn to find good first issues",
+      "Practice making your first PR",
+      "Draft compelling proposals",
+      "Set up local development environment",
+      "Master Git commands and GitHub interface",
+      "Study successful PRs and merged features"
+    ]
+  },
+  {
+    "title": "20. Mentor's Advice",
+    "content": [
+      "Fancy proposals with unrealistic timelines or goals are the biggest red flags. Mentor's usually go for someone who has showcased their skills either through contributions to that organization or via a realistic plan laid out in the proposal with some technical background oriented to what the project is about"
+    ]
+  },
+  {
+    "title": "Thank You for Your Time",
+    "content": [
+      "Thank you for reading and engaging with the content. Best of luck with your open source journey!"
+    ]
+  }
+]

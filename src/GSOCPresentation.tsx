@@ -2,6 +2,17 @@ import { useState } from 'react';
 import { ChevronLeft, ChevronRight, Sun, Moon } from 'lucide-react';
 import slides from './slideData.json';
 
+type Block = {
+  type: 'paragraph' | 'bullet';
+  text: string;
+};
+
+type Slide = {
+  title: string;
+  image?: string;
+  blocks: Block[];
+};
+
 const GSOCPresentation = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [darkMode, setDarkMode] = useState(true);
@@ -21,6 +32,8 @@ const GSOCPresentation = () => {
   const handleSlideChange = (event: any) => {
     setCurrentSlide(parseInt(event.target.value, 10));
   };
+
+  const current = slides[currentSlide] as Slide;
 
   return (
     <div
@@ -67,31 +80,36 @@ const GSOCPresentation = () => {
               darkMode ? 'text-blue-400' : 'text-blue-600'
             }`}
           >
-            {slides[currentSlide].title}
+            {current.title}
           </h2>
           <div className="flex flex-col sm:flex-row items-start sm:space-x-8">
             <div className="flex-1">
               <ul className="space-y-3 text-sm sm:text-base md:text-lg">
-                {slides[currentSlide].content.map((item, index) => (
+                {current.blocks.map((block, idx) => (
                   <li
-                    key={index}
+                    key={idx}
                     className="flex items-start space-x-2 sm:space-x-3"
                   >
                     <span
-                      className={`w-2 h-2 rounded-full mt-1 ${
-                        darkMode ? 'bg-blue-500' : 'bg-blue-600'
+                      className={`mt-1 ${
+                        block.type === 'bullet'
+                          ? 'w-2 h-2 rounded-full bg-blue-500'
+                          : ''
                       }`}
-                    ></span>
-                    <span>{item}</span>
+                    >
+                      {block.type === 'bullet' ? '' : null}
+                    </span>
+                    <span>{block.text}</span>
                   </li>
                 ))}
               </ul>
             </div>
-            {currentSlide === 0 && (
+
+            {currentSlide === 0 && current.image && (
               <div className="flex-shrink-0 mt-6 sm:mt-0">
                 <img
-                  src={slides[currentSlide].image}
-                  alt="Vishvamsinh Vaghela"
+                  src={current.image}
+                  alt="Profile"
                   className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full shadow-lg mx-auto"
                 />
               </div>
@@ -112,10 +130,9 @@ const GSOCPresentation = () => {
                 : 'border-blue-500 text-blue-500 hover:bg-blue-50'
             }`}
           >
-            <ChevronLeft size={18} className="sm:size-20 md:size-24 lg:size-10" />
+            <ChevronLeft size={18} />
           </button>
 
-          {/* Dropdown for Slide Selection with Titles */}
           <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4">
             <span className="text-sm sm:text-base">
               Slide {currentSlide + 1} of {slides.length}
@@ -127,7 +144,7 @@ const GSOCPresentation = () => {
                 darkMode
                   ? 'bg-gray-700 text-gray-200 border-gray-600 focus:ring-blue-400 outline-none'
                   : 'outline-none'
-              }`}              
+              }`}
             >
               {slides.map((slide, index) => (
                 <option key={index} value={index}>
@@ -148,20 +165,35 @@ const GSOCPresentation = () => {
                 : 'border-blue-500 text-blue-500 hover:bg-blue-50'
             }`}
           >
-            <ChevronRight size={18} className="sm:size-20 md:size-24 lg:size-10" />
+            <ChevronRight size={18} />
           </button>
         </div>
 
         {/* Footer */}
         <div className="text-center mt-6 sm:mt-8">
           <p className="text-sm sm:text-base">
-            Created by{' '}
+            content by{' '}
+            <strong>
+              <a
+                href="https://github.com/shadil-rayyan"
+                className={`hover:underline ${
+                  darkMode ? 'text-blue-400' : 'text-blue-600'
+                }`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Shadil A M
+              </a>
+            </strong>{' '}
+            · Website originally created by{' '}
             <strong>
               <a
                 href="https://www.github.com/vishvamsinh28"
                 className={`hover:underline ${
                   darkMode ? 'text-blue-400' : 'text-blue-600'
                 }`}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Vishvamsinh Vaghela
               </a>
