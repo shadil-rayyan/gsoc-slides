@@ -4,8 +4,12 @@
     "image": "/Shadil.jpeg",
     "blocks": [
       {
-        "type": "paragraph",
-        "text": "Hello everyone, my name is Shadil Rayyan. I am a 4th-year Computer Science Engineering student at KTU University."
+        "type": "bullet",
+        "text": "Hello everyone, my name is Shadil A M"
+      },
+      {
+        "type": "bullet",
+        "text": "4th-year Computer Science Engineering student at KTU University"
       },
       {
         "type": "bullet",
@@ -29,7 +33,7 @@
       },
       {
         "type": "bullet",
-        "text": "Contact: Click my name in the footer to visit my GitHub (email, LinkedIn, Twitter)"
+        "text": "Contact: Click my name in the footer to visit my GitHub (Email, LinkedIn, Twitter)"
       }
     ]
   },
@@ -46,11 +50,11 @@
       },
       {
         "type": "bullet",
-        "text": "No guaranteed formula, only strong patterns"
+        "text": "There is no guaranteed formula, only strong patterns"
       },
       {
         "type": "bullet",
-        "text": "Your journey may look different — and that’s okay"
+        "text": "Your journey may look different, and that is okay"
       }
     ]
   },
@@ -147,6 +151,77 @@
     ]
   },
   {
+    "title": "GSoC Timeline and Phases",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "January: Mentoring organization applications open"
+      },
+      {
+        "type": "bullet",
+        "text": "February: Organizations are announced"
+      },
+      {
+        "type": "bullet",
+        "text": "March: Contributors interact with organizations and discuss ideas"
+      },
+      {
+        "type": "bullet",
+        "text": "April: Proposal submission period"
+      },
+      {
+        "type": "bullet",
+        "text": "May: Accepted contributors announced and community bonding begins"
+      },
+      {
+        "type": "bullet",
+        "text": "June to August: Coding period and evaluations"
+      },
+      {
+        "type": "bullet",
+        "text": "November: Completion of long-duration projects"
+      }
+    ]
+  },
+  {
+    "title": "Eligibility",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Must be at least 18 years old"
+      },
+      {
+        "type": "bullet",
+        "text": "Open to students and beginner contributors in open source"
+      },
+      {
+        "type": "bullet",
+        "text": "Cannot apply to the same organization more than two times"
+      }
+    ]
+  },
+  {
+    "title": "Stipend & Effort",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "90 hours → $750"
+      },
+      {
+        "type": "bullet",
+        "text": "175 hours → $1500"
+      },
+      {
+        "type": "bullet",
+        "text": "350 hours → $3000"
+      },
+      {
+        "type": "bullet",
+        "text": "Actual effort required is much higher than listed hours"
+      }
+    ]
+  },
+  {
     "title": "My Biggest Truth",
     "blocks": [
       {
@@ -155,15 +230,15 @@
       },
       {
         "type": "bullet",
-        "text": "Failure taught me how GSoC really works"
+        "text": "That failure taught me how GSoC really works"
       },
       {
         "type": "bullet",
-        "text": "Made me consistent, not desperate"
+        "text": "It made me consistent, not desperate"
       },
       {
         "type": "bullet",
-        "text": "GSoC 2025 happened because of GSoC 2024 failure"
+        "text": "GSoC 2025 happened because of my GSoC 2024 failure"
       }
     ]
   },
@@ -172,7 +247,7 @@
     "blocks": [
       {
         "type": "bullet",
-        "text": "You don’t need to be an expert"
+        "text": "You do not need to be an expert"
       },
       {
         "type": "bullet",
@@ -180,7 +255,7 @@
       },
       {
         "type": "bullet",
-        "text": "Git & GitHub are non-negotiable"
+        "text": "Git and GitHub are non-negotiable"
       },
       {
         "type": "bullet",
@@ -213,32 +288,103 @@
       },
       {
         "type": "bullet",
-        "text": "You will work with this org for 3–6 months"
+        "text": "You will work with this organization for 3–6 months"
       }
     ]
   },
   {
-    "title": "Top  GSoC Advice",
+    "title": "What to Do After Finding an Organization",
     "blocks": [
       {
         "type": "bullet",
-        "text": "Start BEFORE proposal season"
+        "text": "Join the organization’s Discord or Slack channels"
       },
       {
         "type": "bullet",
-        "text": "Become a known name in the organization"
+        "text": "Engage in mailing lists and GitHub discussions"
       },
       {
         "type": "bullet",
-        "text": "Meetings > chats"
+        "text": "Read documentation before asking questions"
       },
       {
         "type": "bullet",
-        "text": "Prototypes > promises"
+        "text": "Introduce yourself clearly and share your interests and skills"
       },
       {
         "type": "bullet",
-        "text": "Evidence > confidence"
+        "text": "Help other newcomers and attend community meetings"
+      }
+    ]
+  },
+  {
+    "title": "Starting Contributions",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Clone the repository and run it locally"
+      },
+      {
+        "type": "bullet",
+        "text": "Fix setup issues if the project does not run"
+      },
+      {
+        "type": "bullet",
+        "text": "Start with good-first-issues"
+      },
+      {
+        "type": "bullet",
+        "text": "Make small but meaningful pull requests"
+      },
+      {
+        "type": "bullet",
+        "text": "Ask for feedback after every pull request"
+      }
+    ]
+  },
+  {
+    "title": "How Organizations Select Contributors",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Organizations look for proof that you can finish the project"
+      },
+      {
+        "type": "bullet",
+        "text": "Accepted pull requests matter"
+      },
+      {
+        "type": "bullet",
+        "text": "Good communication and regular meetings are important"
+      },
+      {
+        "type": "bullet",
+        "text": "Clear and feasible proposals are required"
+      },
+      {
+        "type": "bullet",
+        "text": "They must justify your selection among hundreds of applicants"
+      }
+    ]
+  },
+  {
+    "title": "How Selection REALLY Works",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Chat means interested candidate"
+      },
+      {
+        "type": "bullet",
+        "text": "Meeting means serious candidate"
+      },
+      {
+        "type": "bullet",
+        "text": "Prototype means trusted candidate"
+      },
+      {
+        "type": "bullet",
+        "text": "Silence usually means rejection"
       }
     ]
   },
@@ -264,94 +410,131 @@
     ]
   },
   {
-    "title": "Starting Contributions",
-    "blocks": [
-      {
-        "type": "bullet",
-        "text": "Clone the repository and run it locally"
-      },
-      {
-        "type": "bullet",
-        "text": "Fix setup issues if the project doesn’t run"
-      },
-      {
-        "type": "bullet",
-        "text": "Start with good-first-issues"
-      },
-      {
-        "type": "bullet",
-        "text": "Make small but meaningful pull requests"
-      },
-      {
-        "type": "bullet",
-        "text": "Ask for feedback after every PR"
-      }
-    ]
-  },
-  {
     "title": "Proposal Writing – Reality",
     "blocks": [
       {
         "type": "bullet",
-        "text": "Proposal matters more than number of PRs"
+        "text": "Proposal matters more than the number of pull requests"
       },
       {
         "type": "bullet",
-        "text": "Follow organization template strictly"
+        "text": "Follow the organization template strictly"
       },
       {
         "type": "bullet",
-        "text": "8 pages is more than enough"
+        "text": "Eight pages are more than enough"
       },
       {
         "type": "bullet",
-        "text": "Add prototype or demo link at the top"
+        "text": "Add a prototype or demo link at the top"
       },
       {
         "type": "bullet",
-        "text": "Mentors should understand it in 30 seconds"
+        "text": "Mentors should understand it within 30 seconds"
       }
     ]
   },
   {
-    "title": "How Selection REALLY Works",
+    "title": "How Organizations Review Proposals",
     "blocks": [
       {
         "type": "bullet",
-        "text": "Chat = interested candidate"
+        "text": "A committee of mentors reviews all proposals"
       },
       {
         "type": "bullet",
-        "text": "Meeting = serious candidate"
+        "text": "Mentors discuss candidates internally"
       },
       {
         "type": "bullet",
-        "text": "Prototype = trusted candidate"
+        "text": "Selection is based on feasibility, trust, and prior interaction"
       },
       {
         "type": "bullet",
-        "text": "Silence = rejection"
+        "text": "Demonstrated effort matters more than ideas alone"
+      },
+      {
+        "type": "bullet",
+        "text": "Direct communication with mentors greatly helps"
       }
     ]
   },
   {
-    "title": "Stipend & Effort",
+    "title": "Live Section",
     "blocks": [
       {
         "type": "bullet",
-        "text": "90 hours → $750"
+        "text": "Google Summer of Code official site"
       },
       {
         "type": "bullet",
-        "text": "175 hours → $1500"
+        "text": "Organizations list page and zendalona website "
       },
       {
         "type": "bullet",
-        "text": "350 hours → $3000"
+        "text": "the proposal for my project "
       },
       {
         "type": "bullet",
-        "text": "Actual effort required is much higher"
+        "text": "zendalona GitHub repository"
+      },
+      {
+        "type": "bullet",
+        "text": "my code and my documentation "
+      },
+      {
+        "type": "bullet",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "title": "My GSoC Project – zMantra (Quick Case Study)",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Problem faced"
+      },
+      {
+        "type": "bullet",
+        "text": "What I built"
+      },
+      {
+        "type": "bullet",
+        "text": "Major challenges"
+      },
+      {
+        "type": "bullet",
+        "text": "What mentors valued"
+      },
+      {
+        "type": "bullet",
+        "text": "What I’d do differently"
+      }
+    ]
+  },
+  {
+    "title": "   Evaluation and Feedback",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "GSoC has two evaluations: Midterm and Final"
+      },
+      {
+        "type": "bullet",
+        "text": "Midterm evaluation contributes 45% of the final result"
+      },
+      {
+        "type": "bullet",
+        "text": "Final evaluation contributes 55% of the final result"
+      },
+      {
+        "type": "bullet",
+        "text": "Evaluations are based on progress and communication"
+      },
+      {
+        "type": "bullet",
+        "text": "Consistency and quality of work are critical"
       }
     ]
   },
@@ -360,11 +543,11 @@
     "blocks": [
       {
         "type": "bullet",
-        "text": "Starting during proposal period"
+        "text": "Starting during the proposal period"
       },
       {
         "type": "bullet",
-        "text": "Weak or generic proposals"
+        "text": "Submitting weak or generic proposals"
       },
       {
         "type": "bullet",
@@ -394,6 +577,56 @@
     ]
   },
   {
+    "title": "Top  GSoC Advice",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Start before the proposal season"
+      },
+      {
+        "type": "bullet",
+        "text": "Become a known name in the organization"
+      },
+      {
+        "type": "bullet",
+        "text": "Meetings are more effective than chats"
+      },
+      {
+        "type": "bullet",
+        "text": "Prototypes matter more than promises"
+      },
+      {
+        "type": "bullet",
+        "text": "Evidence matters more than confidence"
+      }
+    ]
+  },
+  {
+    "title": "Practical Tips",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Contact previous contributors early"
+      },
+      {
+        "type": "bullet",
+        "text": "Build and share prototypes before the application deadline"
+      },
+      {
+        "type": "bullet",
+        "text": "Try to get meetings with mentors"
+      },
+      {
+        "type": "bullet",
+        "text": "Meetings are a strong signal of selection"
+      },
+      {
+        "type": "bullet",
+        "text": "Show clear proof that you can finish the work"
+      }
+    ]
+  },
+  {
     "title": "Final Message",
     "blocks": [
       {
@@ -417,5 +650,13 @@
         "text": "GSoC rewards effort, not luck"
       }
     ]
+  },
+  {
+    "title": "QA",
+    "blocks": []
+  },
+  {
+    "title": "Thanks ",
+    "blocks": []
   }
 ]
