@@ -1,11 +1,421 @@
 [
   {
-    "title": "Slide Title",
-    "image": "/slide.jpg",
+    "title": "Google Summer of Code",
+    "image": "/Shadil.jpeg",
     "blocks": [
-      { "type": "paragraph", "text": "..." },
-      { "type": "bullet", "text": "..." },
-      { "type": "image", "src": "..." }
+      {
+        "type": "paragraph",
+        "text": "Hello everyone, my name is Shadil Rayyan. I am a 4th-year Computer Science Engineering student at KTU University."
+      },
+      {
+        "type": "bullet",
+        "text": "GSoC 2025 Contributor with Zendalona"
+      },
+      {
+        "type": "bullet",
+        "text": "Worked on zMantra – a math learning game for visually impaired students"
+      },
+      {
+        "type": "bullet",
+        "text": "Project involved accessibility, research, and real users"
+      },
+      {
+        "type": "bullet",
+        "text": "Visited blind schools and worked closely with real users"
+      },
+      {
+        "type": "bullet",
+        "text": "Founder of CodeCompass – an open-source student platform"
+      },
+      {
+        "type": "bullet",
+        "text": "Contact: Click my name in the footer to visit my GitHub (email, LinkedIn, Twitter)"
+      }
+    ]
+  },
+  {
+    "title": "Disclaimer",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "This talk is based on my personal GSoC experience"
+      },
+      {
+        "type": "bullet",
+        "text": "GSoC selection varies heavily by organization"
+      },
+      {
+        "type": "bullet",
+        "text": "No guaranteed formula, only strong patterns"
+      },
+      {
+        "type": "bullet",
+        "text": "Your journey may look different — and that’s okay"
+      }
+    ]
+  },
+  {
+    "title": "What Is Open Source?",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Source code is publicly available"
+      },
+      {
+        "type": "bullet",
+        "text": "Anyone can read, modify, and contribute"
+      },
+      {
+        "type": "bullet",
+        "text": "Built on transparency and collaboration"
+      },
+      {
+        "type": "bullet",
+        "text": "Learning happens in public"
+      },
+      {
+        "type": "bullet",
+        "text": "Open source is shared responsibility, not free code"
+      }
+    ]
+  },
+  {
+    "title": "Why Open Source Matters",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Powers most of the internet (Linux, Apache, Kubernetes)"
+      },
+      {
+        "type": "bullet",
+        "text": "Drives AI innovation (TensorFlow, PyTorch)"
+      },
+      {
+        "type": "bullet",
+        "text": "Used by companies you want to work for"
+      },
+      {
+        "type": "bullet",
+        "text": "Best way to build a real-world portfolio"
+      },
+      {
+        "type": "bullet",
+        "text": "GSoC is only one entry point into open source"
+      }
+    ]
+  },
+  {
+    "title": "What Is GSoC?",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Global open-source program by Google (started in 2005)"
+      },
+      {
+        "type": "bullet",
+        "text": "Paid, remote, mentor-driven program"
+      },
+      {
+        "type": "bullet",
+        "text": "12–22 weeks of real project work"
+      },
+      {
+        "type": "bullet",
+        "text": "Focus on long-term open-source contributors"
+      }
+    ]
+  },
+  {
+    "title": "GSoC Reality Check",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Not an internship replacement"
+      },
+      {
+        "type": "bullet",
+        "text": "Not only about coding"
+      },
+      {
+        "type": "bullet",
+        "text": "Communication matters more than talent"
+      },
+      {
+        "type": "bullet",
+        "text": "Consistency beats intelligence"
+      }
+    ]
+  },
+  {
+    "title": "My Biggest Truth",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "I failed GSoC 2024"
+      },
+      {
+        "type": "bullet",
+        "text": "Failure taught me how GSoC really works"
+      },
+      {
+        "type": "bullet",
+        "text": "Made me consistent, not desperate"
+      },
+      {
+        "type": "bullet",
+        "text": "GSoC 2025 happened because of GSoC 2024 failure"
+      }
+    ]
+  },
+  {
+    "title": "Are You Good Enough?",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "You don’t need to be an expert"
+      },
+      {
+        "type": "bullet",
+        "text": "Basic programming knowledge is enough"
+      },
+      {
+        "type": "bullet",
+        "text": "Git & GitHub are non-negotiable"
+      },
+      {
+        "type": "bullet",
+        "text": "Tech stack depends on the organization"
+      },
+      {
+        "type": "bullet",
+        "text": "Many first-time contributors get selected every year"
+      }
+    ]
+  },
+  {
+    "title": "The MOST Important Step",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Organization selection decides everything"
+      },
+      {
+        "type": "bullet",
+        "text": "Choose based on interest, not just brand value"
+      },
+      {
+        "type": "bullet",
+        "text": "Check mentor activity and responsiveness"
+      },
+      {
+        "type": "bullet",
+        "text": "Check number of slots in previous years"
+      },
+      {
+        "type": "bullet",
+        "text": "You will work with this org for 3–6 months"
+      }
+    ]
+  },
+  {
+    "title": "Top  GSoC Advice",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Start BEFORE proposal season"
+      },
+      {
+        "type": "bullet",
+        "text": "Become a known name in the organization"
+      },
+      {
+        "type": "bullet",
+        "text": "Meetings > chats"
+      },
+      {
+        "type": "bullet",
+        "text": "Prototypes > promises"
+      },
+      {
+        "type": "bullet",
+        "text": "Evidence > confidence"
+      }
+    ]
+  },
+  {
+    "title": "What Mentors Actually Look For",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Can this student finish the project?"
+      },
+      {
+        "type": "bullet",
+        "text": "Will they disappear midway?"
+      },
+      {
+        "type": "bullet",
+        "text": "Do they communicate clearly?"
+      },
+      {
+        "type": "bullet",
+        "text": "Do we trust this person?"
+      }
+    ]
+  },
+  {
+    "title": "Starting Contributions",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Clone the repository and run it locally"
+      },
+      {
+        "type": "bullet",
+        "text": "Fix setup issues if the project doesn’t run"
+      },
+      {
+        "type": "bullet",
+        "text": "Start with good-first-issues"
+      },
+      {
+        "type": "bullet",
+        "text": "Make small but meaningful pull requests"
+      },
+      {
+        "type": "bullet",
+        "text": "Ask for feedback after every PR"
+      }
+    ]
+  },
+  {
+    "title": "Proposal Writing – Reality",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Proposal matters more than number of PRs"
+      },
+      {
+        "type": "bullet",
+        "text": "Follow organization template strictly"
+      },
+      {
+        "type": "bullet",
+        "text": "8 pages is more than enough"
+      },
+      {
+        "type": "bullet",
+        "text": "Add prototype or demo link at the top"
+      },
+      {
+        "type": "bullet",
+        "text": "Mentors should understand it in 30 seconds"
+      }
+    ]
+  },
+  {
+    "title": "How Selection REALLY Works",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Chat = interested candidate"
+      },
+      {
+        "type": "bullet",
+        "text": "Meeting = serious candidate"
+      },
+      {
+        "type": "bullet",
+        "text": "Prototype = trusted candidate"
+      },
+      {
+        "type": "bullet",
+        "text": "Silence = rejection"
+      }
+    ]
+  },
+  {
+    "title": "Stipend & Effort",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "90 hours → $750"
+      },
+      {
+        "type": "bullet",
+        "text": "175 hours → $1500"
+      },
+      {
+        "type": "bullet",
+        "text": "350 hours → $3000"
+      },
+      {
+        "type": "bullet",
+        "text": "Actual effort required is much higher"
+      }
+    ]
+  },
+  {
+    "title": "Common Mistakes",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Starting during proposal period"
+      },
+      {
+        "type": "bullet",
+        "text": "Weak or generic proposals"
+      },
+      {
+        "type": "bullet",
+        "text": "No communication with mentors"
+      },
+      {
+        "type": "bullet",
+        "text": "Overconfidence without proof"
+      }
+    ]
+  },
+  {
+    "title": "Other Programs Like GSoC",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Outreachy"
+      },
+      {
+        "type": "bullet",
+        "text": "Summer of Bitcoin"
+      },
+      {
+        "type": "bullet",
+        "text": "Linux Foundation (LFX) Mentorship"
+      }
+    ]
+  },
+  {
+    "title": "Final Message",
+    "blocks": [
+      {
+        "type": "bullet",
+        "text": "Start early"
+      },
+      {
+        "type": "bullet",
+        "text": "Be consistent"
+      },
+      {
+        "type": "bullet",
+        "text": "Communicate clearly"
+      },
+      {
+        "type": "bullet",
+        "text": "Build evidence"
+      },
+      {
+        "type": "bullet",
+        "text": "GSoC rewards effort, not luck"
+      }
     ]
   }
 ]
