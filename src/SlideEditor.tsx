@@ -1,24 +1,21 @@
-import { useState } from 'react';
-import slidesData from './slideData.json';
+import { useState } from "react";
+import slidesData from "./slideData.json";
 
-import {
-  DndContext,
-  closestCenter,
-} from '@dnd-kit/core';
+import { DndContext, closestCenter } from "@dnd-kit/core";
 
 import {
   SortableContext,
   verticalListSortingStrategy,
   useSortable,
   arrayMove,
-} from '@dnd-kit/sortable';
+} from "@dnd-kit/sortable";
 
-import { CSS } from '@dnd-kit/utilities';
+import { CSS } from "@dnd-kit/utilities";
 
 /* ---------------- TYPES ---------------- */
 
 type Block = {
-  type: 'paragraph' | 'bullet' | 'image' | 'code' | 'quote';
+  type: "paragraph" | "bullet" | "image" | "code" | "quote";
   text?: string;
   src?: string;
 };
@@ -47,36 +44,32 @@ const SlideBlockEditor = ({
   return (
     <div className="flex gap-3 items-start mb-2">
       <span className="mt-2 text-xs text-gray-500">
-        {block.type === 'bullet'
-          ? '•'
-          : block.type === 'paragraph'
-          ? '¶'
-          : block.type === 'code'
-          ? '{ }'
-          : block.type === 'quote'
-          ? '❝'
-          : '🖼'}
+        {block.type === "bullet"
+          ? "•"
+          : block.type === "paragraph"
+          ? "¶"
+          : block.type === "code"
+          ? "{ }"
+          : block.type === "quote"
+          ? "❝"
+          : "🖼"}
       </span>
 
-      {block.type === 'image' ? (
+      {block.type === "image" ? (
         <input
           type="text"
           className="w-full border p-2"
           placeholder="Image URL..."
-          value={block.src || ''}
-          onChange={(e) =>
-            updateBlock(slideIndex, blockIndex, e.target.value)
-          }
+          value={block.src || ""}
+          onChange={(e) => updateBlock(slideIndex, blockIndex, e.target.value)}
         />
       ) : (
         <textarea
           className="w-full border p-2"
-          rows={block.type === 'paragraph' ? 3 : 2}
-          value={block.text || ''}
+          rows={block.type === "paragraph" ? 3 : 2}
+          value={block.text || ""}
           placeholder={`${block.type}...`}
-          onChange={(e) =>
-            updateBlock(slideIndex, blockIndex, e.target.value)
-          }
+          onChange={(e) => updateBlock(slideIndex, blockIndex, e.target.value)}
         />
       )}
 
@@ -105,7 +98,7 @@ const SortableSlide = ({
   index: number;
   updateTitle: (i: number, v: string) => void;
   removeSlide: (i: number) => void;
-  addBlock: (i: number, t: Block['type']) => void;
+  addBlock: (i: number, t: Block["type"]) => void;
   updateBlock: (i: number, j: number, v: string) => void;
   removeBlock: (i: number, j: number) => void;
 }) => {
@@ -153,7 +146,7 @@ const SortableSlide = ({
 
       {/* Add Block */}
       <div className="flex gap-4">
-        {(['paragraph', 'bullet', 'image', 'code', 'quote'] as const).map(
+        {(["paragraph", "bullet", "image", "code", "quote"] as const).map(
           (t) => (
             <button
               key={t}
@@ -190,7 +183,7 @@ const SlideEditor = () => {
   const addSlide = () => {
     setSlides([
       ...slides,
-      { title: 'New Slide', blocks: [{ type: 'paragraph', text: '' }] },
+      { title: "New Slide", blocks: [{ type: "paragraph", text: "" }] },
     ]);
   };
 
@@ -200,15 +193,17 @@ const SlideEditor = () => {
     setSlides(copy);
   };
 
-  const addBlock = (i: number, type: Block['type']) => {
+  const addBlock = (i: number, type: Block["type"]) => {
     const copy = [...slides];
-    copy[i].blocks.push(type === 'image' ? { type, src: '' } : { type, text: '' });
+    copy[i].blocks.push(
+      type === "image" ? { type, src: "" } : { type, text: "" }
+    );
     setSlides(copy);
   };
 
   const updateBlock = (i: number, j: number, v: string) => {
     const copy = [...slides];
-    copy[i].blocks[j].type === 'image'
+    copy[i].blocks[j].type === "image"
       ? (copy[i].blocks[j].src = v)
       : (copy[i].blocks[j].text = v);
     setSlides(copy);
@@ -224,19 +219,14 @@ const SlideEditor = () => {
     const { active, over } = event;
     if (!over || active.id === over.id) return;
 
-    setSlides((items) =>
-      arrayMove(items, active.id, over.id)
-    );
+    setSlides((items) => arrayMove(items, active.id, over.id));
   };
 
   return (
     <div className="max-w-5xl mx-auto p-6 space-y-6">
       <h1 className="text-3xl font-bold">🛠 Drag & Drop Slide Editor</h1>
 
-      <DndContext
-        collisionDetection={closestCenter}
-        onDragEnd={onDragEnd}
-      >
+      <DndContext collisionDetection={closestCenter} onDragEnd={onDragEnd}>
         <SortableContext
           items={slides.map((_, i) => i)}
           strategy={verticalListSortingStrategy}
